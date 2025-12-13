@@ -1,0 +1,48 @@
+# ---------------------------------------------------
+# 1. BỎ QUA FILE CHẠY & FILE BIÊN DỊCH (Quan trọng nhất)
+# ---------------------------------------------------
+# File chạy chương trình (Windows)
+*.exe
+*.dll
+
+# File đối tượng trung gian (sinh ra khi build)
+*.o
+*.obj
+*.lib
+*.a
+*.cbp
+
+# ---------------------------------------------------
+# 2. BỎ QUA THƯ MỤC CỦA CÁC PHẦN MỀM LẬP TRÌNH (IDE)
+# ---------------------------------------------------
+# Visual Studio & VS Code (Cấu hình riêng tư của bạn)
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Code::Blocks (File cấu hình layout cá nhân)
+*.layout
+*.depend
+
+# ---------------------------------------------------
+# 3. BỎ QUA THƯ MỤC RÁC CỦA HỆ THỐNG
+# ---------------------------------------------------
+# Thư mục build mặc định của Code::Blocks và Visual Studio
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# Thư mục output do bạn tạo
+output/
+
+# ---------------------------------------------------
+# 4. CÁC FILE KHÁC (Tùy chọn)
+# ---------------------------------------------------
+# File tạm, file log lỗi
+*.log
+*.tmp
+
